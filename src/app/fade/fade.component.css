@@ -1,0 +1,16 @@
+p {
+  font-family: sans-serif;
+
+  animation: fade 100ms;
+  animation-delay: 1000ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+  0% {
+    color: black;
+  }
+  100% {
+    color: #008040;
+  }
+}
